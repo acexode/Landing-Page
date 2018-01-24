@@ -1,0 +1,264 @@
+body{
+    font-family: "Raleway", Arial, sans-serif;
+    color: #999999;
+    background: white;
+    font-size: 15px;
+    line-height: 1.8em;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Roboto Slab", Arial, serif;
+    color: #3c4858;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+p {
+    margin: 0 0 10px;
+}
+/* Nav links */
+
+nav a{
+   color: #888 !important;
+}
+nav li a{
+    font-size: 14px;
+    color: #3c4858;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+nav li a:hover{
+    color: cornflowerblue !important;
+}
+.navbar-inverse{
+    border-color: white !important
+}
+nav {
+    background: #fff !important;
+    padding: 25px;   
+    font-weight: 500;
+    font-size: 14px !important;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12)!important;
+   
+    
+}
+
+nav a:focus{
+    color: cornflowerblue !important;
+}
+.two{
+    color: darkgray ;
+}
+.item h1{
+    color: #fff !important;
+}
+/* Carousel base class */
+.carousel {
+  height: 800px;
+  margin-bottom: 60px;
+}
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  z-index: 10;
+}
+
+/* Declare heights because of positioning of img element */
+.carousel .item {
+  height: 800px;
+  background-color: #777;
+}
+.carousel-inner > .item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 800px;
+}
+
+
+/* MARKETING CONTENT
+-------------------------------------------------- */
+
+/* Center align the text within the three columns below the carousel */
+.marketing .col-lg-4 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+.marketing h2 {
+  font-weight: normal;
+}
+.marketing .col-lg-4 p {
+  margin-right: 10px;
+  margin-left: 10px;
+}
+/* Sections
+-------------------------------------------------- */
+.section{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+    width: 100%;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+   
+  
+        
+}
+.section-title {
+    margin-bottom: 80px;
+}
+
+.about{
+    background: #f7f7f7;
+    position: relative;
+    color: #4d4d4d;
+}
+.contact{
+    background: #f7f7f7;
+    position: relative;
+    color: #4d4d4d;
+}
+.stats {
+    text-align: center;
+}
+.stats .fa{
+    font-size: 65px;
+}
+/* Featurettes
+------------------------- */
+
+.featurette-divider {
+  margin: 80px 0; /* Space out the Bootstrap <hr> more */
+}
+
+/* Thin out the marketing headings */
+.featurette-heading {
+  font-weight: 300;
+  line-height: 1;
+  letter-spacing: -1px;
+}
+
+
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+
+@media (min-width: 768px) {
+  /* Navbar positioning foo */
+  .navbar-wrapper {
+    margin-top: 20px;
+  }
+  .navbar-wrapper .container {
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+  .navbar-wrapper .navbar {
+    padding-right: 0;
+    padding-left: 0;
+  }
+
+  /* The navbar becomes detached from the top, so we round the corners */
+  .navbar-wrapper .navbar {
+    border-radius: 4px;
+  }
+
+  /* Bump up size of carousel content */
+  .carousel-caption p {
+    margin-bottom: 20px;
+    font-size: 21px;
+    line-height: 1.4;
+  }
+
+  .featurette-heading {
+    font-size: 50px;
+  }
+}
+
+@media (min-width: 992px) {
+  .featurette-heading {
+    margin-top: 120px;
+  }
+}
+
+.fa{
+   
+    color: #3c4858;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+input{
+    padding: 5px;
+    margin-left: 5%;
+    margin-right: 2%;
+    display: block;
+    border: 1px solid #ccc!important;
+    border-bottom: 1px solid #808080;
+    width: 90%;
+}
+/*
+    Map
+*/
+#googleMap{
+    height:400px;
+    width: 100%;
+   
+}
+footer{
+    margin-top: 50px;
+}
+
+.btn{
+    border: none;
+    display: inline-block;
+    outline: 0;
+    margin: 10px;
+    padding: 12px 16px;
+    vertical-align: middle;
+    overflow: hidden;
+    text-decoration: none!important;
+    color: #fff;
+    background-color: #3c4858;
+    text-align: center;
+    cursor: pointer;
+    white-space: nowrap;
+    border-radius: 0px;
+}
+
+/*----social icons ---*/
+.social-icons {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.social-icons  li {
+  display: inline-block;
+  zoom: 1;
+  *display: inline;
+  vertical-align: middle;
+}
+.social-icons  li a {
+  display: block;
+  font-size: 1.4em;
+  margin: 0 5px;
+  text-decoration: none;
+}
+.social-icons  li a i {
+  color: #448aaf;
+  -webkit-transition: all 0.2s ease-in;
+  -moz-transition: all 0.2s ease-in;
+  -o-transition: all 0.2s ease-in;
+  -ms-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+}
+.social-icons  li a:hover i {
+  color: #275066;
+}
+.social-icons  li a:focus i,
+.social-icons li a:active i {
+  transition: none;
+  color: #0b161c;
+}
+
+
+
